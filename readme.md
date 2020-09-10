@@ -12,11 +12,15 @@
 - 11399-ATM
 - 1541-잃어버린 괄호
 - 1931-회의실
+- 1003-피보나치 수
+- 1904-01타일
+- 2748-피보나치 수 2
+- 9461-파도반 수열
 
 # programmers
 
 - [level1 - golang](https://github.com/JaeSeoKim/learngo/tree/master/programmers/level1)
-- level2
+- level2 - clang
   - 주식가격
   - 스킬트리
   - 멀쩡한 사각형
@@ -26,8 +30,11 @@
   - 최솟값 만들기
   - 피보나치 수
   - N개의 최소 공배수
-- level3
+  - 소수 만들기
+- level3 - clang
   - 가장 긴 팰린드롬
+  - 멀리 뛰기
+  - 방문 길이
 
 # 이것이 취업을 위한 코딩 테스트다 with Python의 문제 풀이!
 
