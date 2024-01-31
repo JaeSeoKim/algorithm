@@ -1,0 +1,10 @@
+{
+  "name": "algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^1.2.2"
+  }
+}
