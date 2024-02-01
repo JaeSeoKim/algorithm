@@ -25,3 +25,9 @@ test("ex1", async () => {
   await import("./solution");
   expect(stdout()).toBe(ex1OUTPUT);
 });
+
+test("ex1: Bottom Up Version", async () => {
+  const stdout = stdioMock(ex1INPUT);
+  await import("./solution.bottomUp");
+  expect(stdout()).toBe(ex1OUTPUT);
+});
