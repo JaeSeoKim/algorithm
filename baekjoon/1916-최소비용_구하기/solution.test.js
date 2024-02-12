@@ -3,11 +3,21 @@ import { test } from "vitest";
 import { stdioMock } from "../setup/stdioMock";
 
 const ex1INPUT = `
-Hello!
+5
+8
+1 2 2
+1 3 3
+1 4 1
+1 5 10
+2 4 2
+3 4 1
+3 5 1
+4 5 3
+1 5
 `.trim();
 
 const ex1OUTPUT = `
-Hello World!
+4
 `.trim();
 
 test("ex1", async () => {
