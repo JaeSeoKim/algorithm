@@ -11,9 +11,9 @@ const input = [];
 rl.on("line", function (line) {
   input.push(line);
 }).on("close", function () {
-  solution(input);
+  solution();
 });
 
-function solution(input) {
+function solution() {
   console.log("Hello World!");
 }
