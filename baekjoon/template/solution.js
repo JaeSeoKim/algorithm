@@ -1,3 +1,19 @@
-const input = require("fs").readFileSync("/dev/stdin").toString().split("\n");
+const readline = require("node:readline");
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
 
-console.log("Hello World!");
+/**
+ * @type {string[]}
+ */
+const input = [];
+rl.on("line", function (line) {
+  input.push(line);
+}).on("close", function () {
+  solution(input);
+});
+
+function solution(input) {
+  console.log("Hello World!");
+}
